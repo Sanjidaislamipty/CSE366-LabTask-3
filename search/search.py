@@ -122,7 +122,7 @@ def breadthFirstSearch(problem):
             if successor not in visited:
                 frontier.push((successor, actions + [action]))
 
-    return []  # If no solution is found
+    return []  
 
 
 def uniformCostSearch(problem):
