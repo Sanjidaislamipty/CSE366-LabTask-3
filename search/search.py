@@ -187,7 +187,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     return []
 
 
-# Abbreviations
+# Abbreviations 
 bfs = breadthFirstSearch
 dfs = depthFirstSearch
 ucs = uniformCostSearch
